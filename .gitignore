@@ -137,3 +137,20 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+.DS_Store
+
+Игнорировать все .txt файлы
+* .txt
+
+Игнорировать конкретный файл
+my-passwords.txt
+
+Игнорировать все файлы в определенной папке
+drafts/*
+
+Игнорировать все .txt файлы кроме plans.txt
+* .txt
+!plans.txt
+
+secret.md
